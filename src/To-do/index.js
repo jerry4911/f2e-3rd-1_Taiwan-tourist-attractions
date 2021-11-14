@@ -12,8 +12,9 @@ const DATA = [
 
 ReactDOM.render(
   <React.StrictMode>
-    <App subject="o(^ω^)o123" tasks={DATA}/>
-
+    <App subject="o(^ω^)o" tasks={DATA}/>
+    {/* 所以裡面可以再加入其他元件囉? 是的沒錯 */}
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

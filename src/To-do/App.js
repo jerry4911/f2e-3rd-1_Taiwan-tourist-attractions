@@ -30,14 +30,6 @@ import FilterButton from "./components/FilterButton";
 import Todo from "./components/Todo";
 import React, { useState, useRef, useEffect } from "react";
 import { nanoid } from "nanoid";
-import Header from "./components/Header";
-import HomeCard from "./components/HomeCard";
-
-const NAV_DATA = [
-  { id: "attractions", name: "台灣景點", color:'pink', icon:'triangle'},
-  { id: "food", name: "美食住宿", color:'yellow', icon:'square' },
-  { id: "transportation", name: "景點交通", color:'green', icon:'circle' }
-];
 
 const FILTER_MAP = {
   All: () => true,
@@ -122,36 +114,28 @@ function App(props) {
   const listHeadingRef = useRef(null);
   const prevTaskLength = usePrevious(tasks.length);
   useEffect(() => {
-    document.title = "台灣旅遊景點導覽"
     if (tasks.length - prevTaskLength === -1) {
       listHeadingRef.current.focus();
     }
   }, [tasks.length, prevTaskLength]);
 
   return (
-    // <div className="todoapp stack-large">
-    //   <h1>TodoMatic</h1>
-    //   <Form addTask={addTask} />
-    //   <div className="filters btn-group stack-exception">
-    //     {filterList}
-    //   </div>
-    //   <h2 id="list-heading" tabIndex="-1" ref={listHeadingRef}>
-    //     {headingText}
-    //   </h2>
-    //   <ul
-    //     role="list"
-    //     className="todo-list stack-large stack-exception"
-    //     aria-labelledby="list-heading"
-    //   >
-    //     {taskList}
-    //   </ul>
-    // </div>
-    <div>
-      <Header 
-        className="header"
-        navbuttons={NAV_DATA}>
-      </Header>
-      <HomeCard className=""></HomeCard>
+    <div className="todoapp stack-large">
+      <h1>TodoMatic</h1>
+      <Form addTask={addTask} />
+      <div className="filters btn-group stack-exception">
+        {filterList}
+      </div>
+      <h2 id="list-heading" tabIndex="-1" ref={listHeadingRef}>
+        {headingText}
+      </h2>
+      <ul
+        role="list"
+        className="todo-list stack-large stack-exception"
+        aria-labelledby="list-heading"
+      >
+        {taskList}
+      </ul>
     </div>
   );
 }
