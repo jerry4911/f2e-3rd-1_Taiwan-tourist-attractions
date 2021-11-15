@@ -377,15 +377,17 @@ body {
   color: #007350;
 }
 
-html, body {
+html, body, #root{
+  position: absolute;
   width: 100vw;
   padding: 0;
   margin: 0;
 }
 .header{
+  display: block;
   width: 100vw;
   height: 104px;
-  position: absolute;
+  position: sticky;
   left: 0%;
   right: 0%;
   top: 0%;
@@ -393,68 +395,75 @@ html, body {
   padding: 0;
   margin: 0;
   background: #FFFFFF;
+  z-index: 100;
 }
 
 .logo{
   display: inline-block;
-  position: absolute;
+  position: relative;
   left:108px;
-  top:29px;
+  top:20px;
 }
 
 .nav-btn-group{
-  position: absolute;
-  right: 108px;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
   bottom: 20px;
+  margin-right: 108px;
 }
 
 /* 首圖 */
 
 .home-card{
-  position: absolute;
-  top: 104px;
-  width: 100vw;
+  position: relative;
+  width: 100%;
+  height: 550px;
   background-color: #ffffff;
-  z-index: 2;
+  z-index: 3;
 }
 
 .home-card .bg{
-  max-width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
   position: relative;
-}
-.home-card .title{
-  width: 40%;
-  position: absolute;
-  display: flex;
+  max-width: 100%;
+  display: table-row;
   top: 0;
   bottom: 200px;
   left: 0;
   right: 0;
   margin: auto;
+  padding: 20px;
+  z-index: 2;
+}
+.home-card .title{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -370px;
+  display: block;
+  width: 40%;
+  z-index: 2;
 }
 
 .home-card .subtitle{
   text-align: center;
-  margin: 0;
-  position: absolute;
-  top: 40%;
-  left: 40%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   /* H4_TC */
   font-family: Noto Sans TC;
   font-style: normal;
   font-weight: normal;
+  top: -370px;
   font-size: 14px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #ffffff;
+  z-index: 5;
 }
 
 .shadow{
-  position: absolute;
-  bottom: 15%;
+  position: relative;
+  top: -80px;
   width: 100%;
   height: 60px;
   background: #0D0B0C;
@@ -462,7 +471,7 @@ html, body {
   /* shadow_blur */
   filter: blur(11px);
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  z-index: 1; 
+  z-index: 0; 
 }
 
 .shadow-left{
@@ -472,9 +481,72 @@ html, body {
 
 .shadow-right{
   right: 0px;
+  top: -140px;
   transform: rotate(6deg);
 }
 
 .inline-block{
   display: inline-block;
+}
+
+.input{
+  padding: 0px 12px 0px 24px;
+  position: relative;
+  width: 90%;
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 3px rgba(13, 11, 12, 0.2);
+  border: none; 
+  border-radius: 6px;
+}
+
+.search-section{
+  width: 100VW;
+  padding-left: 31%;
+  padding-right: 29%;
+  display: block;
+  position: relative;
+  top: -355px;
+  z-index: 5;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-icon{
+  position: relative;
+  top: 22px;
+  margin-left: 6px;
+}
+
+select{
+  width: 44.5%;
+  height: 40px;
+  border: none; 
+  border-radius: 6px;
+  background: no-repeat right #ffffff;
+  align-items: flex-start;
+  padding: 8px 16px 0px;
+  margin-top: 8px;
+}
+
+.country{
+  margin-left: 6px;
+}
+
+.city-card{
+
+}
+
+.city-section{
+  position: relative;
+  display: block;
+}
+
+.container{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
 }

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from "./components/Header";
 
 const DATA = [
   { id: "todo-0", name: "Eat", completed: true },
@@ -10,8 +11,18 @@ const DATA = [
   { id: "todo-2", name: "Repeat", completed: false }
 ];
 
+const NAV_DATA = [
+  { id: "attractions", name: "台灣景點", color:'pink', icon:'triangle'},
+  { id: "food", name: "美食住宿", color:'yellow', icon:'square' },
+  { id: "transportation", name: "景點交通", color:'green', icon:'circle' }
+];
+
 ReactDOM.render(
   <React.StrictMode>
+    <Header 
+      className="header"
+      navbuttons={NAV_DATA}>
+    </Header>
     <App subject="o(^ω^)o123" tasks={DATA}/>
 
   </React.StrictMode>,

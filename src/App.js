@@ -30,14 +30,9 @@ import FilterButton from "./components/FilterButton";
 import Todo from "./components/Todo";
 import React, { useState, useRef, useEffect } from "react";
 import { nanoid } from "nanoid";
-import Header from "./components/Header";
 import HomeCard from "./components/HomeCard";
+import CitySection from "./components/CitySection";
 
-const NAV_DATA = [
-  { id: "attractions", name: "台灣景點", color:'pink', icon:'triangle'},
-  { id: "food", name: "美食住宿", color:'yellow', icon:'square' },
-  { id: "transportation", name: "景點交通", color:'green', icon:'circle' }
-];
 
 const FILTER_MAP = {
   All: () => true,
@@ -146,12 +141,12 @@ function App(props) {
     //     {taskList}
     //   </ul>
     // </div>
-    <div>
-      <Header 
-        className="header"
-        navbuttons={NAV_DATA}>
-      </Header>
-      <HomeCard className=""></HomeCard>
+
+    <div className="container">
+      <HomeCard></HomeCard>
+      <div className="shadow shadow-left"></div>
+      <div className="shadow shadow-right"></div>
+      <CitySection></CitySection>
     </div>
   );
 }
