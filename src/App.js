@@ -32,7 +32,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { nanoid } from "nanoid";
 import HomeCard from "./components/HomeCard";
 import CitySection from "./components/CitySection";
-
+import icon from "./assets/images/triangle.svg"
 
 const FILTER_MAP = {
   All: () => true,
@@ -146,6 +146,10 @@ function App(props) {
       <HomeCard></HomeCard>
       <div className="shadow shadow-left"></div>
       <div className="shadow shadow-right"></div>
+      <div className="section-title">
+        <embed className="title-icon" src={icon} alt="map"></embed>
+        <p>熱門城市</p>
+      </div>
       <CitySection></CitySection>
     </div>
   );

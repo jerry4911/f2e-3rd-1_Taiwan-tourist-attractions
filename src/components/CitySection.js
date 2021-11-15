@@ -1,5 +1,4 @@
 import React from "react";
-import icon from "../assets/images/triangle.svg"
 import taipei_city from "../assets/images/city/台北市.png";
 import new_taipei_city from "../assets/images/city/新北市.png";
 import momo_city from "../assets/images/city/桃園市.png";
@@ -12,10 +11,6 @@ import CityCard from "./CityCard";
 function CitySection(props) {
   return (
     <div className="city-section">
-      <div className="title">
-        <embed className="title-icon" src={icon} alt="map"></embed>
-        <p>熱門城市</p>
-      </div>
       <CityCard city={taipei_city} name="台北市" size="big"></CityCard>
       <div className="two-city-card">
         <CityCard city={new_taipei_city} name="新北市" size="small"></CityCard>
