@@ -1,23 +1,36 @@
 {
   "files": {
-    "main.css": "/f2e-3rd-1_Taiwan-tourist-attractions/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/main.7a8fa446.chunk.js",
-    "main.js.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/main.7a8fa446.chunk.js.map",
-    "runtime-main.js": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/runtime-main.bdf01d0c.js",
-    "runtime-main.js.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/runtime-main.bdf01d0c.js.map",
-    "static/js/2.9c7f326c.chunk.js": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/2.9c7f326c.chunk.js",
-    "static/js/2.9c7f326c.chunk.js.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/2.9c7f326c.chunk.js.map",
-    "static/js/3.3182b7d8.chunk.js": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/3.3182b7d8.chunk.js",
-    "static/js/3.3182b7d8.chunk.js.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/3.3182b7d8.chunk.js.map",
+    "main.css": "/f2e-3rd-1_Taiwan-tourist-attractions/static/css/main.70cc78cd.chunk.css",
+    "main.js": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/main.337c1957.chunk.js",
+    "main.js.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/main.337c1957.chunk.js.map",
+    "runtime-main.js": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/runtime-main.409c6b3c.js",
+    "runtime-main.js.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/runtime-main.409c6b3c.js.map",
+    "static/js/2.795bef88.chunk.js": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/2.795bef88.chunk.js",
+    "static/js/2.795bef88.chunk.js.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/2.795bef88.chunk.js.map",
+    "static/js/3.5f083ffa.chunk.js": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/3.5f083ffa.chunk.js",
+    "static/js/3.5f083ffa.chunk.js.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/3.5f083ffa.chunk.js.map",
     "index.html": "/f2e-3rd-1_Taiwan-tourist-attractions/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.9c7f326c.chunk.js.LICENSE.txt": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/2.9c7f326c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/logo.6ce24c58.svg"
+    "static/css/main.70cc78cd.chunk.css.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/css/main.70cc78cd.chunk.css.map",
+    "static/js/2.795bef88.chunk.js.LICENSE.txt": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/2.795bef88.chunk.js.LICENSE.txt",
+    "static/media/location.88f82953.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/location.88f82953.svg",
+    "static/media/logo.ee0ffe2f.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/logo.ee0ffe2f.svg",
+    "static/media/map.a44f33c9.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/map.a44f33c9.svg",
+    "static/media/search.2ea9759a.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/search.2ea9759a.svg",
+    "static/media/title.062c1cbb.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/title.062c1cbb.svg",
+    "static/media/triangle.7bb7f979.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/triangle.7bb7f979.svg",
+    "static/media/南投.a347024e.png": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/南投.a347024e.png",
+    "static/media/台中.a6032b37.png": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/台中.a6032b37.png",
+    "static/media/台北市.2059eaeb.png": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/台北市.2059eaeb.png",
+    "static/media/嘉義.968e9d7d.png": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/嘉義.968e9d7d.png",
+    "static/media/新北市.58e86191.png": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/新北市.58e86191.png",
+    "static/media/新竹市.7dbe0b60.png": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/新竹市.7dbe0b60.png",
+    "static/media/景點.f41a12b7.png": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/景點.f41a12b7.png",
+    "static/media/桃園市.588914ca.png": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/桃園市.588914ca.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bdf01d0c.js",
-    "static/js/2.9c7f326c.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.7a8fa446.chunk.js"
+    "static/js/runtime-main.409c6b3c.js",
+    "static/js/2.795bef88.chunk.js",
+    "static/css/main.70cc78cd.chunk.css",
+    "static/js/main.337c1957.chunk.js"
   ]
 }
