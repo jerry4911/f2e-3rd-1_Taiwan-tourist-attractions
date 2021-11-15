@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/f2e-3rd-1_Taiwan-tourist-attractions/static/css/main.0e17d329.chunk.css",
-    "main.js": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/main.88d9d881.chunk.js",
-    "main.js.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/main.88d9d881.chunk.js.map",
+    "main.js": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/main.7b81a30f.chunk.js",
+    "main.js.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/main.7b81a30f.chunk.js.map",
     "runtime-main.js": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/runtime-main.409c6b3c.js",
     "runtime-main.js.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/runtime-main.409c6b3c.js.map",
     "static/js/2.795bef88.chunk.js": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/2.795bef88.chunk.js",
@@ -12,12 +12,12 @@
     "index.html": "/f2e-3rd-1_Taiwan-tourist-attractions/index.html",
     "static/css/main.0e17d329.chunk.css.map": "/f2e-3rd-1_Taiwan-tourist-attractions/static/css/main.0e17d329.chunk.css.map",
     "static/js/2.795bef88.chunk.js.LICENSE.txt": "/f2e-3rd-1_Taiwan-tourist-attractions/static/js/2.795bef88.chunk.js.LICENSE.txt",
-    "static/media/location.88f82953.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/location.88f82953.svg",
-    "static/media/logo.ee0ffe2f.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/logo.ee0ffe2f.svg",
-    "static/media/map.a44f33c9.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/map.a44f33c9.svg",
-    "static/media/search.2ea9759a.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/search.2ea9759a.svg",
-    "static/media/title.062c1cbb.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/title.062c1cbb.svg",
-    "static/media/triangle.7bb7f979.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/triangle.7bb7f979.svg",
+    "static/media/location.3492f55c.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/location.3492f55c.svg",
+    "static/media/logo.01c34079.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/logo.01c34079.svg",
+    "static/media/map.2a6aed94.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/map.2a6aed94.svg",
+    "static/media/search.8b7b956b.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/search.8b7b956b.svg",
+    "static/media/title.34ea8a3e.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/title.34ea8a3e.svg",
+    "static/media/triangle.a26b5a74.svg": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/triangle.a26b5a74.svg",
     "static/media/南投.a347024e.png": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/南投.a347024e.png",
     "static/media/台中.a6032b37.png": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/台中.a6032b37.png",
     "static/media/台北市.2059eaeb.png": "/f2e-3rd-1_Taiwan-tourist-attractions/static/media/台北市.2059eaeb.png",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.409c6b3c.js",
     "static/js/2.795bef88.chunk.js",
     "static/css/main.0e17d329.chunk.css",
-    "static/js/main.88d9d881.chunk.js"
+    "static/js/main.7b81a30f.chunk.js"
   ]
 }
